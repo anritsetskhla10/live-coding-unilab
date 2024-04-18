@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    font-family: "Inter", sans-serif;
+    background-color: #1E1E1E;
+}
+
+header{
+    width: 100%;
+    background-color: #33394E;
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 19px 120px;
+}
+
+ul{
+    gap: 24px;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E8EDFF;
+}
+
+li{
+    color: #CDD4EC;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:focus{
+    color: #829BF3;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0 0;
+}
+
+.new{
+    font-size: 28px;
+    font-weight: bold;
+    color: #E8EDFF;
+}
+
+.movies-container{
+    display: flex;
+    flex-direction: row;
+    padding: 48px 120px 0;
+    gap: 25px;
+}
+
+.movie-card{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #33394E;
+}
+
+.movieImg{
+    width: 220px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title{
+    color: #E8EDFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 17px 0 0 16px;
+    margin-bottom: 12px;
+}
+
+.release{
+    color: #E8EDFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0 0 16px;
+    margin-bottom: 20px;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    margin: 389px 0 75px ;
+}
+
+button{
+    background-color: #33394E;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 6px;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: #3D4A78;
+}
